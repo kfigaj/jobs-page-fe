@@ -6,5 +6,4 @@ import { RouterView } from 'vue-router'
 <template>
   <Navbar />
   <RouterView />
-  <h1>Jobs</h1>
 </template>
