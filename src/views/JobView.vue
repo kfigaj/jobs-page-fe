@@ -17,7 +17,7 @@ const state = reactive({
 
 onMounted(async () => {
   try {
-    const response = await axios.get(`http://localhost:8001/jobs/${jobId}`)
+    const response = await axios.get(`/api/jobs/${jobId}`)
     state.job = response.data
   } catch (error) {
     console.error('Error fetching jobs', error)
@@ -37,7 +37,7 @@ onMounted(async () => {
             <div class="text-gray-500 mb-4">{{ state.job.type }}</div>
             <h1 class="text-3xl font-bold mb-4">{{ state.job.title }}</h1>
             <div class="text-gray-500 mb-4 flex align-middle justify-center md:justify-start">
-              <i class="fa-solid fa-location-dot text-lg text-orange-700 mr-2"></i>
+              <i class="pi pi-dash-marker text-xl text-orange-700 mr-2"></i>
               <p class="text-orange-700">{{ state.job.location }}</p>
             </div>
           </div>
