@@ -83,20 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "e639",
-      "title": "aa",
-      "type": "Full-Time",
-      "description": "aa",
-      "salary": "$70K - $80K",
-      "location": "",
-      "company": {
-        "name": "aa",
-        "description": "aa",
-        "contactEmail": "kfigaj@gmail.com",
-        "contactPhone": "507981163"
-      }
     }
   ]
 }
