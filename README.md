@@ -20,6 +20,8 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 yarn
 ```
 
+Json server - https://www.npmjs.com/package/json-server
+
 ### Compile and Hot-Reload for Development
 
 ```sh
